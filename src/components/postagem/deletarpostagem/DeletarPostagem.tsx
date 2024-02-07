@@ -27,7 +27,7 @@ function DeletarPostagem() {
             })
         } catch (error: any) {
             if (error.toString().includes('403')) {
-                ToastAlerta('O token expirou, favor logar novamente', "")
+                ToastAlerta('O token expirou, favor logar novamente', '')
                 handleLogout()
             }
         }
@@ -35,7 +35,7 @@ function DeletarPostagem() {
 
     useEffect(() => {
         if (token === '') {
-            ToastAlerta('Você precisa estar logado', "")
+            ToastAlerta('Você precisa estar logado', '')
             navigate('/')
         }
     }, [token])
