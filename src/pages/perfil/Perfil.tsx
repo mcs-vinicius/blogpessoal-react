@@ -34,7 +34,6 @@ function Perfil() {
                 <p>Nome: {usuario.nome} </p>
                 <p>Email: {usuario.usuario}</p>
             </div>
-
         </div>
     )
 }
