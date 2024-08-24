@@ -17,7 +17,6 @@ function Footer() {
                     <p className='text-xl font-bold'>
                         Blog Pessoal  | Copyright: {data}
                     </p>
-                  
                     <div className='flex gap-2'>
                         <a href="https://github.com/mcs-vinicius" target="_blank">
                             <GithubLogo size={48} weight='bold' />
@@ -30,8 +29,6 @@ function Footer() {
             </div>
         )
     }
-
-
     return (
         <>
             {component}
