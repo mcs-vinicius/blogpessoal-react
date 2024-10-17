@@ -1,7 +1,7 @@
 ﻿import axios from "axios";
 
 const api = axios.create({
-    baseURL: 'https://blogpessoal-v2.onrender.com'
+    baseURL: 'https://blogpessoal-qzw4.onrender.com'
     //Inserir o endereço do End-Point
     //baseURL: 'http://localhost:8080'
     
